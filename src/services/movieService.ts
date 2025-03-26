@@ -9,6 +9,7 @@ export interface MovieSearchResult {
   Type: string;
 }
 
+
 export interface MovieDetails {
   Title: string;
   Year: string;

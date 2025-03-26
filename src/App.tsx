@@ -38,9 +38,10 @@ function App() {
   };
 
   useEffect(() => {
-    // Optional: Load a default movie on initial render
+
     const loadDefaultMovie = async () => {
       try {
+        
         const details = await getMovieDetails('tt3896198');
         if (details) {
           setSelectedMovie(details);
